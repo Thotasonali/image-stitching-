@@ -23,37 +23,28 @@ Task 2 builds a panorama from multiple overlapping images. The code estimates pa
 - Feather blending and seam smoothing
 - Difference-based moving-object removal
 - Overlap matrix generation for panorama connectivity
-
-## Pipeline
-
-## Pipeline
-
-```text
+##pipeline
 Input Images
      ↓
 Float Conversion and Normalization
      ↓
 Grayscale Conversion
      ↓
-SIFT Keypoint Detection
+SIFT Keypoint Detection + Descriptor Extraction
      ↓
-SIFT Descriptor Extraction
-     ↓
-Descriptor Matching
-     ↓
-Lowe’s Ratio Test
+Descriptor Matching with Ratio Test
      ↓
 RANSAC Homography Estimation
      ↓
+Canvas Computation
+     ↓
 Perspective Warping
      ↓
-Canvas and Mask Creation
+Valid-Region Mask Creation
      ↓
-Overlap Region Detection
+Overlap Detection
      ↓
-Blending and Seam Smoothing
-     ↓
-Moving Object Removal
+Blending / Motion Removal
      ↓
 Crop Black Borders
      ↓

@@ -24,30 +24,30 @@ Task 2 builds a panorama from multiple overlapping images. The code estimates pa
 - Difference-based moving-object removal
 - Overlap matrix generation for panorama connectivity
   
-#pipeline
+## Pipeline
 
-Input Images
-     ↓
-Float Conversion and Normalization
-     ↓
-Grayscale Conversion
-     ↓
-SIFT Keypoint Detection + Descriptor Extraction
-     ↓
-Descriptor Matching with Ratio Test
-     ↓
-RANSAC Homography Estimation
-     ↓
-Canvas Computation
-     ↓
-Perspective Warping
-     ↓
-Valid-Region Mask Creation
-     ↓
-Overlap Detection
-     ↓
-Blending / Motion Removal
-     ↓
-Crop Black Borders
-     ↓
-Final Stitched Image / Panorama
+Input Images  
+    ↓  
+Float Conversion and Normalization  
+    ↓  
+Grayscale Conversion  
+    ↓  
+SIFT Keypoint Detection + Descriptor Extraction  
+    ↓  
+Descriptor Matching with Ratio Test  
+    ↓  
+RANSAC Homography Estimation  
+    ↓  
+Canvas Computation  
+    ↓  
+Perspective Warping  
+    ↓  
+Valid-Region Mask Creation  
+    ↓  
+Overlap Detection  
+    ↓  
+Blending / Motion Removal  
+    ↓  
+Crop Black Borders  
+    ↓  
+Final Stitched Image / Panorama  

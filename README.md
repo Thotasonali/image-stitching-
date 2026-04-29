@@ -1,13 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AiU9r98G)
-# Spring 26 CSE 473/573 Project 2
 
-## TODO: Fill the blank with your UBIT name
 
-Please update this README.md to fill the blank below before submiting to UB Learn!
-
-Name: __________
-
-UBIT: __________
 
 ## Implementation
 

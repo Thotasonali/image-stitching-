@@ -23,6 +23,8 @@ Task 2 builds a panorama from multiple overlapping images. The code estimates pa
 - Feather blending and seam smoothing
 - Difference-based moving-object removal
 - Overlap matrix generation for panorama connectivity
+  
+#pipeline
 
 Input Images
      ↓

@@ -27,7 +27,7 @@ Task 2 builds a panorama from multiple overlapping images. The code estimates pa
 ## Pipeline
 
 
-Input Images
+##Input Images
 → Float Conversion and Normalization
 → Grayscale Conversion
 → SIFT Keypoint and Descriptor Extraction

@@ -26,14 +26,35 @@ Task 2 builds a panorama from multiple overlapping images. The code estimates pa
 
 ## Pipeline
 
+## Pipeline
 
-##Input Images
-→ Float Conversion and Normalization
-→ Grayscale Conversion
-→ SIFT Keypoint and Descriptor Extraction
-→ Descriptor Matching
-→ RANSAC Homography Estimation
-→ Perspective Warping
-→ Mask and Overlap Computation
-→ Blending / Motion Removal
-→ Final Stitched Output
+```text
+Input Images
+     ↓
+Float Conversion and Normalization
+     ↓
+Grayscale Conversion
+     ↓
+SIFT Keypoint Detection
+     ↓
+SIFT Descriptor Extraction
+     ↓
+Descriptor Matching
+     ↓
+Lowe’s Ratio Test
+     ↓
+RANSAC Homography Estimation
+     ↓
+Perspective Warping
+     ↓
+Canvas and Mask Creation
+     ↓
+Overlap Region Detection
+     ↓
+Blending and Seam Smoothing
+     ↓
+Moving Object Removal
+     ↓
+Crop Black Borders
+     ↓
+Final Stitched Image / Panorama
